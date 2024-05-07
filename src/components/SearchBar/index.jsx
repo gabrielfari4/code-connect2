@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './styles.css'
 
-export default function SearchBar() {
+const SearchBar = () => {
     const [searchTerm, setSearchTerm] = useState('');
     console.log(searchTerm)
     return (
@@ -13,3 +13,5 @@ export default function SearchBar() {
         onChange={(event) => setSearchTerm(event.target.value)} />
     )
 }
+
+export default SearchBar;

@@ -3,4 +3,7 @@
     margin: 3.5em auto;
     display: flex;
     gap: 16px;
+    div {
+        flex-grow: 2;
+    }
 }
