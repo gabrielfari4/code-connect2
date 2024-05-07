@@ -15,7 +15,11 @@ function App() {
         <SearchBar />
         <Filter />
         <OrderBy />
-        <Card />
+        <div className='container__cards'>
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     </div>
   )

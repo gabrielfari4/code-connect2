@@ -3,6 +3,7 @@ import Code from './assets/code.svg'
 import Share from './assets/share.svg'
 import Chat from './assets/chat.svg'
 import User from './assets/usuario.png'
+import './styles.css'
 
 const Card = () => {
     return (
@@ -13,7 +14,7 @@ const Card = () => {
             <div className='card__conteudo'>
                 <div className='conteudo__texto'>
                     <h3>Título do post</h3>
-                    <p>Resumo do post</p>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.</p>
                 </div>
                 <div className='conteudo__rodape'>
                     <ul>

@@ -7,3 +7,9 @@
         flex-grow: 2;
     }
 }
+
+.container__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}

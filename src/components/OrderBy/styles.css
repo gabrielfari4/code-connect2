@@ -1,7 +1,7 @@
 .container__orderby {
     display: flex;
     justify-content: center;
-    column-gap: 28px;
+    column-gap: 1.5em;
     margin-top: 3.5em;
     margin-bottom: 2em;
 }
