@@ -1,0 +1,19 @@
+.container__orderby {
+    display: flex;
+    justify-content: center;
+    column-gap: 28px;
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+}
+
+.orderby {
+    font-family: var(--fonte);
+    color: var(--cinza-medio);
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.ativo {
+    color: var(--verde-destaque);
+    text-decoration: underline;
+}

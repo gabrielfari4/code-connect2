@@ -1,6 +1,7 @@
 import './App.css'
 import Card from './components/Card'
 import Filter from './components/Filter'
+import OrderBy from './components/OrderBy'
 import SearchBar from './components/SearchBar'
 import Sidebar from './components/Sidebar'
 
@@ -13,7 +14,7 @@ function App() {
       <div>
         <SearchBar />
         <Filter />
-        {/* Criar componente ordenação */}
+        <OrderBy />
         <Card />
       </div>
     </div>
