@@ -1,4 +1,5 @@
 import './App.css'
+import Card from './components/Card'
 import Filter from './components/Filter'
 import SearchBar from './components/SearchBar'
 import Sidebar from './components/Sidebar'
@@ -12,6 +13,8 @@ function App() {
       <div>
         <SearchBar />
         <Filter />
+        {/* Criar componente ordenação */}
+        <Card />
       </div>
     </div>
   )
